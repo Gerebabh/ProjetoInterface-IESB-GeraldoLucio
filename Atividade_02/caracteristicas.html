@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece - Características</title>
+    <style>
+        /*Logo e menu*/
+        #logo{
+            display: flex;
+            justify-content: center;
+            background-color: black;
+        }
+
+        #logo a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #logo-img{
+            width: 25%;
+        }
+        #menu {
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            background-color: #D70000;
+        }
+        #menu a {
+            color: white;
+            margin-left: 1.5rem;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        hr {
+            margin: 40px 0;
+        }
+
+        #menu {
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+        }
+
+        #button {
+            margin-top: 20px;
+        }
+        #topo {
+            text-decoration: none;
+            font-weight: 500;
+            cursor: pointer;
+            background-color: black;
+            color: white;
+            padding: 0.5rem;
+            border: 2px solid grey;
+            border-radius: 8px;
+        }
+
+        table th,
+        table td {
+            padding: 1rem;
+        } 
+        table th {
+            background-color: black;
+            color: #f4f4f4;
+        }
+
+        table td {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="logo">
+        <a href="./index.html"><img id="logo-img" src="./assets/img/logo.png" alt="Logo Anime One-Piece"></a>
+    </div>
+    <div id="menu">
+        <a href="./index.html">INÍCIO</a>
+        <a href="./sobre.html">PERSONAGENS</a>
+        <a href="./caracteristicas.html">CARACTERÍSTICAS</a>
+        <a href="./piloto.html">MÍDIA</a>
+    </div>
+
+    
+    <div class="container">
+        <div id="usuarios">
+            <h3>Características dos personagens</h3>
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>Personagem</th>
+                        <th>Fruto do Diabo</th>
+                        <th>Propriedades</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monkey D. Luffy</td>
+                        <td>Gomu Gomu no Mi</td>
+                        <td>Transformou o corpo em borracha</td>
+                    </tr>
+                    <tr>
+                        <td>Tony Tony Chopper</td>
+                        <td>Hito Hito no Mi</td>
+                        <td>Pode modificar as formas de seu corpo</td>
+                    </tr>
+                    <tr>
+                        <td>Roronoa-Zoro</td>
+                        <td>Não é usuário do</td>
+                        <td> - </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="arcos">
+            <h3>Arcos preferidos</h3>
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>Arco</th>
+                        <th>Preferência</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Arco de Enies Lobby</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Arco de Marineford</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Arco de Alabasta</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Arco de Whole Cake Island</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Arco de Dressrosa</td>
+                        <td>5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="button">
+        <a id="topo" href="#logo">TOPO DA PÁGINA</a>
+    </div>
+
+</body>
+</html>
