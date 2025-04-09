@@ -61,6 +61,7 @@
         #button {
             margin-top: 20px;
         }
+        
         #topo {
             text-decoration: none;
             font-weight: 500;
@@ -85,6 +86,14 @@
             text-align: center;
         }
 
+        table tbody tr:nth-child(even) {
+        background-color: #f2f2f2;
+        }
+
+        table tbody tr:hover {
+        background-color: #ddd;
+        }
+
     </style>
 </head>
 <body>
@@ -102,7 +111,8 @@
     <div class="container">
         <div id="usuarios">
             <h3>Características dos personagens</h3>
-            <table border="2">
+            <table border="2" aria-describedby="tabela-descricao">
+                <caption id="tabela-descricao">Características dos personagens principais</caption>
                 <thead>
                     <tr>
                         <th>Personagem</th>
@@ -131,7 +141,8 @@
         </div>
         <div id="arcos">
             <h3>Arcos preferidos</h3>
-            <table border="2">
+            <table border="2" aria-describedby="tabela-arcos">
+                <caption id="tabela-arcos">Arcos preferidos</caption>
                 <thead>
                     <tr>
                         <th>Arco</th>
@@ -140,31 +151,36 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Arco de Enies Lobby</td>
+                        <td>Arco de Wano</td>
                         <td>1</td>
                     </tr>
                     <tr>
-                        <td>Arco de Marineford</td>
+                        <td>Arco de Enies Lobby</td>
                         <td>2</td>
                     </tr>
                     <tr>
-                        <td>Arco de Alabasta</td>
+                        <td>Arco de Marineford</td>
                         <td>3</td>
                     </tr>
                     <tr>
-                        <td>Arco de Whole Cake Island</td>
+                        <td>Arco de Alabasta</td>
                         <td>4</td>
                     </tr>
                     <tr>
-                        <td>Arco de Dressrosa</td>
+                        <td>Arco de Whole Cake Island</td>
                         <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Arco de Dressrosa</td>
+                        <td>6</td>
                     </tr>
                 </tbody>
             </table>
         </div>
-        <div id="arcos">
+        <div id="info-gerais">
             <h3>Informações Gerais</h3>
-            <table border="2">
+            <table border="2" aria-describedby="tabela-infos">
+                <caption id="tabela-arcos">Informações gerais sobre One Piece</caption>
                 <thead>
                     <tr>
                         <th>Autor</th>
