@@ -29,11 +29,6 @@ form {
     align-items: center;
 }
 
-#dados-pessoais > div {
-    
-    width: 100%;
-}
-
 .size3 {
     width: 20rem;
 }
@@ -99,6 +94,14 @@ button[name="voltar"] {
     }
 }
 
+button[name="iesb"] {
+    background-color: rgb(255, 0, 0);
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
 @media(max-width: 992px) {
     #dados-pessoais {
         flex-direction: column;
@@ -118,6 +121,10 @@ button[name="voltar"] {
     }
 
     .size1, .size2, .size3 {
+        width: 100%;
+    }
+
+    #dados-pessoais > div {
         width: 100%;
     }
 }
